@@ -5,10 +5,10 @@ The propose of this repository is to implement the image haze removal base on th
 
 ## Usage
 
-The code can be executed via `terminal`
->	```python dehaze.py```
-> then input the PATH_TO_IMAGE
-> ```imagename.png```
+1. For single image.
+>	```python dehaze.py path_to_image```
+2. For a video (Not recomended. It may take a long time.)
+>	```python dehaze_video.py path_to_video sampling_rate(use all frames = 1)```
 
 ---
 
